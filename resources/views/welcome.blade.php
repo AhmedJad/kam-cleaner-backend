@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head id="header">
+  <meta charset="UTF-8">
+  <meta id="meta" name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Cleaning Services HTML template ">
+  <base href="/">
+  <title>Kam Cleaner</title>
+  <!-- favicons Icons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/KAM-CLEANER-LOGO.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/KAM-CLEANER-LOGO.png">
+  <link rel="manifest" href="/assets/images/favicons/site.html">
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com/">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+  <style type="text/css">
+    @font-face {
+      font-family: 'DM Sans';
+      font-style: italic;
+      font-weight: 400;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/dmsans/v11/rP2Fp2ywxg089UriCZa4ET-DJF4e8BH9.woff2) format('woff2');
+      unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    }
+
+    @font-face {
+      font-family: 'DM Sans';
+      font-style: italic;
+      font-weight: 400;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/dmsans/v11/rP2Fp2ywxg089UriCZa4Hz-DJF4e8A.woff2) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+
+    @font-face {
+      font-family: 'DM Sans';
+      font-style: italic;
+      font-weight: 500;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/dmsans/v11/rP2Ap2ywxg089UriCZaw7ByWB3wT2iv06JOy.woff2) format('woff2');
+      unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    }
+
+    @font-face {
+      font-family: 'DM Sans';
+      font-style: italic;
+      font-weight: 500;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/dmsans/v11/rP2Ap2ywxg089UriCZaw7ByWCXwT2iv06A.woff2) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+
+    @font-face {
+      font-family: 'DM Sans';
+      font-style: italic;
+      font-weight: 700;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/dmsans/v11/rP2Ap2ywxg089UriCZawpBqWB3wT2iv06JOy.woff2) format('woff2');
+      unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    }
+
+    @font-face {
+      font-family: 'DM Sans';
+      font-style: italic;
+      font-weight: 700;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/dmsans/v11/rP2Ap2ywxg089UriCZawpBqWCXwT2iv06A.woff2) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+
+    @font-face {
+      font-family: 'DM Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/dmsans/v11/rP2Hp2ywxg089UriCZ2IHTWEBlwu8Q.woff2) format('woff2');
+      unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    }
+
+    @font-face {
+      font-family: 'DM Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/dmsans/v11/rP2Hp2ywxg089UriCZOIHTWEBlw.woff2) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+
+    @font-face {
+      font-family: 'DM Sans';
+      font-style: normal;
+      font-weight: 500;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/dmsans/v11/rP2Cp2ywxg089UriAWCrCBamC3YU-CnE6Q.woff2) format('woff2');
+      unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    }
+
+    @font-face {
+      font-family: 'DM Sans';
+      font-style: normal;
+      font-weight: 500;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/dmsans/v11/rP2Cp2ywxg089UriAWCrCBimC3YU-Ck.woff2) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+
+    @font-face {
+      font-family: 'DM Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/dmsans/v11/rP2Cp2ywxg089UriASitCBamC3YU-CnE6Q.woff2) format('woff2');
+      unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    }
+
+    @font-face {
+      font-family: 'DM Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/dmsans/v11/rP2Cp2ywxg089UriASitCBimC3YU-Ck.woff2) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+  </style>
+  <style>
+    @charset "UTF-8";
+
+    :root {
+      --bs-blue: #0d6efd;
+      --bs-indigo: #6610f2;
+      --bs-purple: #6f42c1;
+      --bs-pink: #d63384;
+      --bs-red: #dc3545;
+      --bs-orange: #fd7e14;
+      --bs-yellow: #ffc107;
+      --bs-green: #198754;
+      --bs-teal: #20c997;
+      --bs-cyan: #0dcaf0;
+      --bs-white: #fff;
+      --bs-gray: #6c757d;
+      --bs-gray-dark: #343a40;
+      --bs-primary: #0d6efd;
+      --bs-secondary: #6c757d;
+      --bs-success: #198754;
+      --bs-info: #0dcaf0;
+      --bs-warning: #ffc107;
+      --bs-danger: #dc3545;
+      --bs-light: #f8f9fa;
+      --bs-dark: #212529;
+      --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+      --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0))
+    }
+
+    *,
+    ::after,
+    ::before {
+      box-sizing: border-box
+    }
+
+    @media (prefers-reduced-motion:no-preference) {
+      :root {
+        scroll-behavior: smooth
+      }
+    }
+
+    body {
+      margin: 0;
+      font-family: var(--bs-font-sans-serif);
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 1.5;
+      color: #212529;
+      background-color: #fff;
+      -webkit-text-size-adjust: 100%;
+      -webkit-tap-highlight-color: transparent
+    }
+  </style>
+  <link id="bootstrap" rel="stylesheet" href="/assets/vendors/bootstrap/css/bootstrap.min.css" media="print" onload="this.media='all'"><noscript>
+    <link rel="stylesheet" href="/assets/vendors/bootstrap/css/bootstrap.min.css">
+  </noscript>
+  <style>
+    @charset "UTF-8"
+  </style>
+  <link rel="stylesheet" href="/assets/vendors/animate/animate.min.css" media="print" onload="this.media='all'"><noscript>
+    <link rel="stylesheet" href="/assets/vendors/animate/animate.min.css">
+  </noscript>
+  <link rel="stylesheet" href="/assets/vendors/animate/custom-animate.css" media="print" onload="this.media='all'"><noscript>
+    <link rel="stylesheet" href="/assets/vendors/animate/custom-animate.css">
+  </noscript>
+  <link rel="stylesheet" href="/assets/vendors/fontawesome/css/all.min.css" media="print" onload="this.media='all'"><noscript>
+    <link rel="stylesheet" href="/assets/vendors/fontawesome/css/all.min.css">
+  </noscript>
+  <link rel="stylesheet" href="/assets/vendors/jarallax/jarallax.css" media="print" onload="this.media='all'"><noscript>
+    <link rel="stylesheet" href="/assets/vendors/jarallax/jarallax.css">
+  </noscript>
+  <style>
+    @media screen and (max-width: 800px) and (orientation: landscape),
+    screen and (max-height: 300px) {}
+  </style>
+  <link rel="stylesheet" href="/assets/vendors/jquery-magnific-popup/jquery.magnific-popup.css" media="print" onload="this.media='all'"><noscript>
+    <link rel="stylesheet" href="/assets/vendors/jquery-magnific-popup/jquery.magnific-popup.css">
+  </noscript>
+  <link rel="stylesheet" href="/assets/vendors/nouislider/nouislider.min.css" media="print" onload="this.media='all'"><noscript>
+    <link rel="stylesheet" href="/assets/vendors/nouislider/nouislider.min.css">
+  </noscript>
+  <link rel="stylesheet" href="/assets/vendors/nouislider/nouislider.pips.css" media="print" onload="this.media='all'"><noscript>
+    <link rel="stylesheet" href="/assets/vendors/nouislider/nouislider.pips.css">
+  </noscript>
+  <link rel="stylesheet" href="/assets/vendors/odometer/odometer.min.css" media="print" onload="this.media='all'"><noscript>
+    <link rel="stylesheet" href="/assets/vendors/odometer/odometer.min.css">
+  </noscript>
+  <style>
+    :root {
+      --swiper-theme-color: #007aff
+    }
+
+    :root {
+      --swiper-navigation-size: 44px
+    }
+  </style>
+  <link rel="stylesheet" href="/assets/vendors/swiper/swiper.min.css" media="print" onload="this.media='all'"><noscript>
+    <link rel="stylesheet" href="/assets/vendors/swiper/swiper.min.css">
+  </noscript>
+  <link rel="stylesheet" href="/assets/vendors/brote-icons/style.css" media="print" onload="this.media='all'"><noscript>
+    <link rel="stylesheet" href="/assets/vendors/brote-icons/style.css">
+  </noscript>
+  <link rel="stylesheet" href="/assets/vendors/tiny-slider/tiny-slider.min.css" media="print" onload="this.media='all'"><noscript>
+    <link rel="stylesheet" href="/assets/vendors/tiny-slider/tiny-slider.min.css">
+  </noscript>
+  <link rel="stylesheet" href="/assets/vendors/reey-font/stylesheet.css" media="print" onload="this.media='all'"><noscript>
+    <link rel="stylesheet" href="/assets/vendors/reey-font/stylesheet.css">
+  </noscript>
+  <link rel="stylesheet" href="/assets/vendors/owl-carousel/owl.carousel.min.css" media="print" onload="this.media='all'"><noscript>
+    <link rel="stylesheet" href="/assets/vendors/owl-carousel/owl.carousel.min.css">
+  </noscript>
+  <link rel="stylesheet" href="/assets/vendors/owl-carousel/owl.theme.default.min.css" media="print" onload="this.media='all'"><noscript>
+    <link rel="stylesheet" href="/assets/vendors/owl-carousel/owl.theme.default.min.css">
+  </noscript>
+  <link rel="stylesheet" href="/assets/vendors/bxslider/jquery.bxslider.css" media="print" onload="this.media='all'"><noscript>
+    <link rel="stylesheet" href="/assets/vendors/bxslider/jquery.bxslider.css">
+  </noscript>
+  <link rel="stylesheet" href="/assets/vendors/bootstrap-select/css/bootstrap-select.min.css" media="print" onload="this.media='all'"><noscript>
+    <link rel="stylesheet" href="/assets/vendors/bootstrap-select/css/bootstrap-select.min.css">
+  </noscript>
+  <link rel="stylesheet" href="/assets/vendors/vegas/vegas.min.css" media="print" onload="this.media='all'"><noscript>
+    <link rel="stylesheet" href="/assets/vendors/vegas/vegas.min.css">
+  </noscript>
+  <link rel="stylesheet" href="/assets/vendors/jquery-ui/jquery-ui.css" media="print" onload="this.media='all'"><noscript>
+    <link rel="stylesheet" href="/assets/vendors/jquery-ui/jquery-ui.css">
+  </noscript>
+  <link rel="stylesheet" href="/assets/vendors/timepicker/timePicker.css" media="print" onload="this.media='all'"><noscript>
+    <link rel="stylesheet" href="/assets/vendors/timepicker/timePicker.css">
+  </noscript>
+  <!-- template styles -->
+  <style>
+    :root {
+      --brote-font: 'DM Sans', sans-serif;
+      --brote-reey-font: "reeyregular";
+      --brote-gray: #7b7d83;
+      --brote-gray-rgb: 123, 125, 131;
+      --brote-white: #ffffff;
+      --brote-white-rgb: 255, 255, 255;
+      --brote-base: #1239ac;
+      --brote-base-rgb: 18, 57, 172;
+      --brote-primary: #ffb400;
+      --brote-primary-rgb: 255, 180, 0
+    }
+
+    body {
+      font-family: var(--brote-font);
+      color: var(--brote-gray);
+      font-size: 16px;
+      line-height: 30px;
+      font-weight: 500
+    }
+  </style>
+  <link id="brote" rel="stylesheet" href="/assets/css/brote.css" media="print" onload="this.media='all'"><noscript>
+    <link rel="stylesheet" href="/assets/css/brote.css">
+  </noscript>
+  <link id="brote-responsive" rel="stylesheet" href="/assets/css/brote-responsive.css" media="print" onload="this.media='all'"><noscript>
+    <link rel="stylesheet" href="/assets/css/brote-responsive.css">
+  </noscript>
+  <style>
+    ::-webkit-scrollbar {
+      width: 6px;
+      height: 6px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background-color: #c8c8ce;
+      border-radius: 5px;
+    }
+
+    .preloader {
+      display: block;
+      position: fixed;
+      background-color: #fff;
+      background-position: center center;
+      background-repeat: no-repeat;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 9999;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    .preloader__image {
+      -webkit-animation-fill-mode: both;
+      animation-fill-mode: both;
+      -webkit-animation-name: flipInY;
+      animation-name: flipInY;
+      -webkit-animation-duration: 2s;
+      animation-duration: 2s;
+      -webkit-animation-iteration-count: infinite;
+      animation-iteration-count: infinite;
+      background-image: url(./assets/images/KAM-CLEANER-LOGO.png);
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: 60px auto;
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+  <style>
+    body,
+    html {
+      height: 100%
+    }
+
+    body {
+      margin: 0;
+      font-family: Roboto, Helvetica Neue, sans-serif
+    }
+  </style>
+  <link rel="stylesheet" href="/styles.ecde67bb126231d80d4e.css" media="print" onload="this.media='all'"><noscript>
+    <link rel="stylesheet" href="/styles.ecde67bb126231d80d4e.css">
+  </noscript>
+</head>
+
+<body class="custom-cursor">
+  <!--preloader Start -->
+  <div class="preloader">
+    <div class="preloader__image">
+    </div>
+  </div>
+  <!--preloader End-->
+  <app-root></app-root>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="/assets/vendors/jquery/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="/assets/vendors/jarallax/jarallax.min.js"></script>
+  <script src="/assets/vendors/jquery-ajaxchimp/jquery.ajaxchimp.min.js"></script>
+  <script src="/assets/vendors/jquery-appear/jquery.appear.min.js"></script>
+  <script src="/assets/vendors/jquery-circle-progress/jquery.circle-progress.min.js"></script>
+  <script src="/assets/vendors/jquery-magnific-popup/jquery.magnific-popup.min.js"></script>
+  <script src="/assets/vendors/jquery-validate/jquery.validate.min.js"></script>
+  <script src="/assets/vendors/nouislider/nouislider.min.js"></script>
+  <script src="/assets/vendors/odometer/odometer.min.js"></script>
+  <script src="/assets/vendors/swiper/swiper.min.js"></script>
+  <script src="/assets/vendors/tiny-slider/tiny-slider.min.js"></script>
+  <script src="/assets/vendors/wnumb/wNumb.min.js"></script>
+  <script src="/assets/vendors/wow/wow.js"></script>
+  <script src="/assets/vendors/isotope/isotope.js"></script>
+  <script src="/assets/vendors/countdown/countdown.min.js"></script>
+  <script src="/assets/vendors/owl-carousel/owl.carousel.min.js"></script>
+  <script src="/assets/vendors/bxslider/jquery.bxslider.min.js"></script>
+  <script src="/assets/vendors/bootstrap-select/js/bootstrap-select.min.js"></script>
+  <script src="/assets/vendors/vegas/vegas.min.js"></script>
+  <script src="/assets/vendors/jquery-ui/jquery-ui.js"></script>
+  <script src="/assets/vendors/timepicker/timePicker.js"></script>
+  <script src="/assets/vendors/circleType/jquery.circleType.js"></script>
+  <script src="/assets/vendors/circleType/jquery.lettering.min.js"></script>
+  <script src="/runtime.b5f8dcf480a5eed30b57.js" defer></script>
+  <script src="/polyfills.6a19bf8847d384777fa3.js" defer></script>
+  <script src="/main.0c3b8b988363bb9db8f5.js" defer></script>
+
+</body>
+
+</html>
